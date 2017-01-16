@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms Exercise</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form class="" action="index.html" method="post">
+
+      <div>
+        <label for="GET-First">First Name: </label>
+        <input id="GET-First" type="text" placeholder="John" name="First" required>
+        <label for="GET-Last">Last Name: </label>
+        <input id="GET-Last" type="text" placeholder="Smith" name="Last" required>
+      </div>
+      <div>
+        <label for="Male">Male: </label>
+        <input type="radio" name="Gender" value="MALE" id="Male">
+        <label for="Female">Female:</label>
+        <input type="radio" name="Gender" value="Female" id="Female">
+        <label for="Other">Other:</label>
+        <input type="radio" name="Gender" value="Other" id="Other">
+      </div>
+      <div>
+
+        <label for="Email">Email:</label>
+        <input type="email" name="email" value="" id="Email" placeholder="your email" required>
+
+        <label for="Password">Password:</label>
+        <input pattern=".{5,10}"type="password" id="Password" required title="5-10 characters">
+      </div>
+      <div>
+        <label>
+          Birthday:
+          <select name="month">
+            <option>Month</option>
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+          </select>
+
+          <select name="day">
+            <option>Days</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+          </select>
+          <select name="year">
+            <option>Year</option>
+            <option>1999</option>
+            <option>2000</option>
+            <option>2001</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label for="agreed">I agree to the terms and conditions</label>
+        <input id="agreed" type="checkbox" name="agreed" value="">
+      </div>
+
+      <button type="button" name="button">Submit</button>
+    </form>
+  </body>
+</html>
