@@ -1,0 +1,17 @@
+body{
+
+}
+li
+{
+  border-color: red;
+  border-width: medium;
+
+}
+#special
+{
+  background-color: yellow;
+}
+.completed
+{
+  text-decoration: line-through;
+}
